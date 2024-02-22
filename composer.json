@@ -15,7 +15,7 @@
         "think-config": {
             "addons": "src/config.php"
         }
-    }
+    },
     "authors": [
         {
             "name": "oyta",
