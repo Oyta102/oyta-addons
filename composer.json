@@ -1,0 +1,26 @@
+{
+    "name": "oyta/addons",
+	"description": "addons package for oyta",
+    "license": "MIT",
+	"version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+		"files": [
+            "src/common.php"
+        ]
+    },
+	"extra": {
+        "think-config": {
+            "addons": "src/config.php"
+        }
+    }
+    "authors": [
+        {
+            "name": "oyta",
+            "email": "ynga7718@qq.com"
+        }
+    ],
+    "require": {}
+}
